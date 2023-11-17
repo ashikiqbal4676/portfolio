@@ -1,0 +1,401 @@
+.product-help{
+    padding: 130px 0 120px 0;
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+
+    .product-help-taitel{
+        h2{
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 72px;
+        }
+    }
+
+.product-help-item{
+    .accordion-item {
+        background-color: var(   --product-bg-color);
+        border-bottom: 1px solid #747681;
+    }
+
+    .accordion-button {
+        background-color: var(   --product-bg-color);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+        color: var(--product-headdig-color);
+        padding:  28px 16px ;
+        span{
+            margin-right: 20px;
+            transition: all linear 0.3s;
+        }
+     
+    }
+
+    .accordion-flush {
+        .accordion-collapse {
+            border-bottom: 2px solid #fff !important;
+        }
+    }
+
+
+    .accordion-body {
+        padding: 0px 52px 16px ;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        p{
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            color: var(--product-headdig-color);
+        }
+
+        a{
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%; /* 32px */
+            text-decoration-line: underline; 
+            color: var(  --product-primary-color);
+
+            span{
+                svg{
+                    stroke: currentColor;
+                    color: var(  --product-primary-color);
+                }
+            }
+        }
+    }
+
+    .accordion-button:focus {
+        z-index: 3;
+        border-color: transparent;
+        outline: 0;
+        box-shadow: 0 0 0 .25rem transparent;
+        
+        span{
+            display: flex;
+            width: 32px;
+            height: 32px; 
+            background-color: var(--product-headdig-color);
+            align-items: center;
+            justify-content: center;
+            border-radius: 50px;
+            color:#04091E ;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+        }
+
+    
+    }
+
+    .accordion-button::after {
+        background-image: url(../assets/images/icon/help-arrow.png);
+        object-fit: cover;
+    }
+
+   
+}
+
+
+
+.from-main{
+    padding: 32px 32px 50px ;
+    border-radius: 10px; 
+    margin-left: 35px;
+    background-color: #050F25;
+    .from-main-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 70px;
+        .from-main-inner{
+            width: 100%;
+            .form-label{
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 152%;
+                color: #747681;
+                margin-bottom: 4px;
+            }
+
+            .form-control{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 152%;
+                color: rgba(116, 118, 129, 0.4);
+                padding: 14px 16px;
+                background-color: var(    --product-bg-color);
+                border: 1px solid var(    --product-bg-color);
+                border-radius: 8px; 
+                &:focus{
+                    box-shadow: 0 0 0 0.25rem transparent;
+                    color: #FFF;
+                    border-color: var(--product-primary-color);
+                }
+            }
+        }
+    }
+
+    .from-main-item-two{
+        margin-top: 18px;
+    }
+
+
+    .from-main-item-btn{
+        display: flex;
+        justify-content: end;
+        margin-top: 48px;
+
+        .main-btn{
+        
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 160%;
+                color: var(--product-headdig-color);
+            
+        }
+
+    }
+}
+
+
+
+}
+
+
+// .dev-help 
+
+.dev-help{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    padding: 130px 60px 120px 90px; 
+    .product-help-item{
+        .accordion-body {
+            a{
+                color: var(    --developer-primary-color);
+    
+                span{
+                    svg{
+                        stroke: currentColor;
+                        color: var(     --developer-primary-color);
+                    }
+                }
+            }
+        }
+    
+
+
+       
+    }
+
+
+
+    
+.from-main{
+
+    .from-main-item{
+        .from-main-inner{
+
+            .form-control{
+                &:focus{
+                    border-color: var(    --developer-primary-color);
+                }
+            }
+        }
+    }
+
+    .from-main-item-btn{
+        .main-btn{
+        
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 160%;
+            color: var(--product-headdig-color);
+
+            
+        }
+
+    }
+}
+
+    
+}
+
+
+
+
+// .teacher-help 
+
+.teacher-help{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    .product-help-item{
+        .accordion-body {
+            a{
+                color: var(    --teacher-primary-color);
+    
+                span{
+                    svg{
+                        stroke: currentColor;
+                        color: var(     --teacher-primary-color);
+                    }
+                }
+            }
+        }
+    
+
+
+       
+    }
+
+
+
+    
+.from-main{
+    .from-main-item{
+        .from-main-inner{
+
+            .form-control{
+                &:focus{
+                    border-color: var(    --teacher-primary-color);
+                }
+            }
+        }
+    }
+    .from-main-item-btn{
+        .teacher-main-btn{
+            color: var(--product-headdig-color);
+            a{
+                color: var(--product-headdig-color);
+            }
+
+        }
+
+    }
+}
+
+    
+}
+
+
+
+
+
+// .law-help 
+
+.law-help{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    .product-help-item{
+        .accordion-body {
+            a{
+                color: var(    --law-primary-color);
+    
+                span{
+                    svg{
+                        stroke: currentColor;
+                        color: var(     --law-primary-color);
+                    }
+                }
+            }
+        }
+    
+
+
+       
+    }
+
+
+
+    
+.from-main{
+    .from-main-item{
+        .from-main-inner{
+
+            .form-control{
+                &:focus{
+                    border-color: var(    --law-primary-color);
+                }
+            }
+        }
+    }
+    .from-main-item-btn{
+        .law-main-btn{
+            color: var(--product-headdig-color);
+            a{
+                color: var(--product-headdig-color);
+            }
+
+        }
+
+    }
+}
+
+    
+}
+
+
+
+
+// .phtography-help 
+
+.phtography-help{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    .product-help-item{
+        .accordion-body {
+            a{
+                color: var(    --phtography-primary-color);
+    
+                span{
+                    svg{
+                        stroke: currentColor;
+                        color: var(     --phtography-primary-color);
+                    }
+                }
+            }
+        }
+    
+
+
+       
+    }
+
+
+
+    
+.from-main{
+    .from-main-item{
+        .from-main-inner{
+
+            .form-control{
+                &:focus{
+                    border-color: var(    --phtography-primary-color);
+                }
+            }
+        }
+    }
+    .from-main-item-btn{
+        .phtography-main-btn{
+            color: #04091E;
+           
+            &:hover{
+                color: var(--product-headdig-color);
+            }
+        }
+
+    }
+}
+
+    
+}
+
+
+
+

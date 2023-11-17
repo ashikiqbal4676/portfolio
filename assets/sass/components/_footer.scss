@@ -1,0 +1,20 @@
+.footer{
+    border-top: 1px solid rgba(116, 118, 129, 0.23);
+    background: #050F25;
+    padding: 20px 0;
+    .footer-text{
+        text-align: center;
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 152%;
+            color: #747681;
+
+            span{
+                font-weight: 600; 
+                color: var(--product-headdig-color);
+                text-decoration-line: underline;
+            }
+        }
+    }
+}

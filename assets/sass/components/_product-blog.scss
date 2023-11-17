@@ -1,0 +1,253 @@
+.product-blog {
+    padding: 80px 0 70px 0;
+
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    .product-blog-taitel {
+        h2 {
+            font-size: 42px;
+            font-weight: 700;
+            line-height: normal;
+            color: var(--product-headdig-color);
+        }
+    }
+
+    .product-work-taitel-btn {
+        display: flex;
+        justify-content: end;
+    }
+
+    .product-blog-item-mt-50px{
+        margin-top: 50px;
+    }
+
+
+    .product-blog-item {
+        background-color: var(--product-bg-main-color);
+        border-radius: 4px;
+        padding: 20px 20px 24px 20px;
+
+    
+        // hover start 
+
+        &:hover {
+            .product-blog-img {
+                img {
+                    transform: scale(1.1);
+                }
+            }
+
+            .product-blog-inner{
+                .product-blog-inner-text{
+                    a{
+                        h6{
+                           color: var( --product-primary-color);
+                           text-decoration-line: underline;
+                        }
+                    }
+                }
+            }
+
+         
+        }
+
+
+        // hover end 
+
+        .product-blog-img {
+            overflow: hidden;
+            border-radius: 4px;
+
+            img {
+                object-fit: cover;
+                width: 100%;
+                transition: all 0.3s ease-in-out;
+            }
+
+
+        }
+
+        .product-blog-inner {
+            padding: 24px 5px 0 5px;
+            .product-blog-inner-btn {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                a {
+                    padding: 0px 8px;
+                    border-radius: 6px;
+                    background: rgba(255, 255, 255, 0.05);
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 180%;
+                    color: var(--product-headdig-color);
+                }
+            }
+
+
+            .product-blog-inner-text{
+                padding: 15px 25px 0 0;
+                a{
+                    h6{
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 160%;
+                        color: var(--product-headdig-color);
+                        transition: all linear 0.5s;
+                    }
+                }
+            }
+
+
+            .product-blog-inner-btm-btn{
+                a{
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 180%;
+                    color: #747681;
+                }
+            }
+        }
+
+
+
+
+    }
+
+}
+
+
+
+
+
+// dev-blog 
+
+
+.dev-blog{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    padding: 80px 60px 70px 90px; 
+    .product-blog-item {
+        // hover start 
+        &:hover {
+            .product-blog-inner{
+                .product-blog-inner-text{
+                    a{
+                        h6{
+                           color: var(   --developer-primary-color);
+                           text-decoration-line: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        // hover end 
+
+
+
+
+
+    }
+}
+// teacher-blog 
+
+
+.teacher-blog{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    .product-blog-item {
+        // hover start 
+        &:hover {
+            .product-blog-inner{
+                .product-blog-inner-text{
+                    a{
+                        h6{
+                           color: var(   --teacher-primary-color);
+                           text-decoration-line: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        // hover end 
+
+
+
+
+
+    }
+}
+
+
+
+
+// law-blog 
+
+
+.law-blog{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    .product-blog-item {
+        // hover start 
+        &:hover {
+            .product-blog-inner{
+                .product-blog-inner-text{
+                    a{
+                        h6{
+                           color: var(   --law-primary-color);
+                           text-decoration-line: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        // hover end 
+
+
+
+
+
+    }
+}
+
+
+
+
+// phtography-blog 
+
+
+.phtography-blog{
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    .product-blog-item {
+        // hover start 
+        &:hover {
+            .product-blog-inner{
+                .product-blog-inner-text{
+                    a{
+                        h6{
+                           color: var(   --phtography-primary-color);
+                           text-decoration-line: underline;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        // hover end 
+
+
+
+
+
+    }
+}

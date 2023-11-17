@@ -1,0 +1,134 @@
+.slide-menu{
+    position: absolute;
+    top: 50%;
+    left: 293px;
+    transform: translate(-50%, -50%);
+    width: 92px;
+    height: 645px; 
+    border-radius: 10px;
+    background-color: var(    --product-gray-color);
+    border: 1px solid #293245;
+    overflow: hidden;
+    z-index: 9999;
+    scroll-snap-stop: always;
+    ul{
+        li{
+            border-bottom: 1px solid #293245;
+
+         
+
+
+            &:last-child{
+                border-bottom: 1px solid transparent;
+            }
+
+          
+         
+            a{
+                width: 92px;
+                height: 92px; 
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: all linear 0.3s;
+                &:hover{
+                    background-color: var( --product-primary-color);
+                }
+            }
+
+         
+
+
+           
+        }
+
+        .active{
+            background-color: var(--product-primary-color);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// dev-slide-menu  
+.dev-slide-menu {
+    ul{
+        li{
+            a{
+                &:hover{
+                    background-color: var( --developer-primary-color);
+                }
+            }   
+        }
+
+        .active{
+            background-color: var(--developer-primary-color);
+        }
+    }
+}
+
+
+
+// teacher-slide-menu  
+.teacher-slide-menu {
+    ul{
+        li{
+            a{
+                &:hover{
+                    background-color: var( --teacher-primary-color);
+                }
+            }   
+        }
+
+        .active{
+            background-color: var(--teacher-primary-color);
+        }
+    }
+}
+
+
+
+
+// law-slide-menu  
+.law-slide-menu {
+    ul{
+        li{
+            a{
+                &:hover{
+                    background-color: var( --law-primary-color);
+                }
+            }   
+        }
+
+        .active{
+            background-color: var(--law-primary-color);
+        }
+    }
+}
+
+
+
+
+
+
+// phtography-slide-menu  
+.phtography-slide-menu {
+    ul{
+        li{
+            a{
+                &:hover{
+                    background-color: var( --phtography-primary-color);
+                }
+            }   
+        }
+
+        .active{
+            background-color: var(--phtography-primary-color);
+        }
+    }
+}

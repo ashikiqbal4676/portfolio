@@ -1,0 +1,81 @@
+.body-bg{
+    background: url(../assets/images/body-bg/body-bg.png) no-repeat center / cover;
+    height: 100%; 
+
+    ::-webkit-scrollbar {
+        width: 6px;
+        background-color: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: var(    --product-primary-color);
+        border-radius: 50px;
+    
+    }
+    
+}
+
+
+// .dev-body-bg 
+.dev-body-bg{
+    ::-webkit-scrollbar {
+        width: 6px;
+        background-color: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--developer-primary-color);
+        border-radius: 50px;
+    
+    }
+}
+
+
+
+// teacher-body-bg 
+
+
+.teacher-body-bg{
+    ::-webkit-scrollbar {
+        width: 6px;
+        background-color: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--teacher-primary-color);
+        border-radius: 50px;
+    
+    }
+}
+
+
+// law-body-bg 
+.law-body-bg{
+    ::-webkit-scrollbar {
+        width: 6px;
+        background-color: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--law-primary-color);
+        border-radius: 50px;
+    
+    }
+}
+
+
+
+
+// law-body-bg 
+.phtography-body-bg{
+    ::-webkit-scrollbar {
+        width: 6px;
+        background-color: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: var(--phtography-primary-color);
+        border-radius: 50px;
+    
+    }
+}

@@ -1,0 +1,630 @@
+.product-about {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+
+    padding: 110px 0 90px 0;
+
+    .product-about-taitel {
+        span {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 152%;
+            color: var(--product-primary-color);
+        }
+
+        h2 {
+            padding-top: 12px;
+            font-weight: 600;
+            line-height: 140%;
+        }
+    }
+
+    .product-about-taitel-p {
+        padding-top: 20px;
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 152%;
+            color: var(--product-pragraph-color);
+        }
+    }
+
+    .product-about-item-main {
+        margin-top: 40px;
+
+        .product-about-item {
+            margin-top: 32px;
+
+            .product-about-item-text {
+                padding-bottom: 12px;
+
+                span {
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: normal;
+                    color: #F4F8F7;
+                }
+            }
+
+            .product-about-item-progres {
+                position: relative;
+                z-index: 1;
+
+         
+                .product-about-item-progres-overlay {
+                    position: absolute;
+                    z-index: 1;
+                    right: 140px;
+                    top: -8px;
+                  
+
+                    span {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        color: #04091E;
+                        padding: 4px 10px;
+                        background-color: var(--product-pragraph-color);
+                        border-radius: 10px;
+                        border: 2px solid var(--product-primary-color);
+
+                    }
+                }
+
+                .product-about-item-progres-overlay-two {
+                    right: 160px;
+                }
+
+                .product-about-item-progres-overlay-three {
+                    right: 150px;
+                }
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    top: 0;
+                    left: 0;
+                    width: 480px;
+                    height: 8px;
+                    background-color: rgba(244, 248, 247, 0.25);
+                    border-radius: 4px;
+         
+                }
+
+                &::before {
+                    position: absolute;
+                    content: "";
+                    top: 0;
+                    left: 0;
+                    height: 8px;
+                    background-color: var(--product-primary-color);
+                    border-radius: 4px;
+                    z-index: 1;
+                    width: 70%;
+                    
+                }
+
+
+            }
+        }
+    }
+
+    .product-about-btn {
+        margin-top: 62px;
+        position: relative;
+        z-index: 1;
+
+        .product-about-btn-img {
+            position: absolute;
+            top: 0;
+            left: -25px;
+            z-index: -1;
+            animation: left-right 8s linear infinite;
+
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+
+
+    .product-about-img {
+        position: relative;
+        width: 100%;
+
+        img {
+            width: 100%;
+            height: 562.062px;
+            object-fit: cover;
+            border-radius: 9.383px;
+
+        }
+
+        .product-about-btn-img-position-one {
+            position: absolute;
+            bottom: -45px;
+            left: -58px;
+
+            img {
+                width: 169.839px;
+                height: 109.785px;
+                animation: left-right 8s linear infinite;
+            }
+        }
+
+        .product-about-btn-img-position-two {
+            position: absolute;
+            bottom: -45px;
+            right: -42px;
+
+            img {
+                width: 186.728px;
+                height: 130.428px;
+                animation: right-left 8s linear infinite;
+            }
+        }
+
+        .product-about-btn-img-position-three {
+            position: absolute;
+            top: -85px;
+            right: -42px;
+
+            img {
+                width: 162.332px;
+                height: 134.182px;
+                animation: top-bootom 5s linear infinite;
+            }
+        }
+    }
+
+
+
+
+
+
+}
+
+
+
+// dev-about 
+
+.dev-about {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+    padding: 110px 60px 90px 90px; 
+    .dev-about-taitel {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #494C5F;
+        padding-bottom: 22px;
+
+        .dev-about-taitel-item {
+            h5 {
+                font-weight: 600;
+                line-height: 150%;
+            }
+
+
+            span {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 160%;
+                color: var(--product-headdig-color);
+            }
+        }
+
+        .dev-about-taitel-item-inner {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            h2 {
+                font-size: 72px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 52px;
+                color: var(--developer-primary-color);
+            }
+
+            .inner {
+                p {
+                    font-size: 18px;
+                    font-weight: 500;
+                    line-height: 152%;
+                    color: var(--product-headdig-color);
+                }
+            }
+        }
+    }
+
+    .about-taitel-p {
+        padding-top: 18px;
+
+        p {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            color: var(--product-headdig-color);
+        }
+    }
+
+.dev-about-top{
+margin-top: 25px;
+}
+
+    .dev-about-taitel-right {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #494C5F;
+        padding: 18px 0;
+
+        .dev-about-taitel-right-item {
+
+            h6 {
+                font-weight: 600;
+                line-height: 160%;
+                padding-bottom: 14px;
+            }
+        }
+
+        .dev-about-taitel-right-btn {
+            a {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 180%;
+                color: #04091E;
+                background-color: var(--developer-primary-color);
+                padding: 0 10px;
+                border-radius: 6px;
+            }
+
+            &.two {
+                a {
+                    background-color: transparent;
+                    color: var(--developer-primary-color);
+                    border: 1px solid var(--developer-primary-color);
+                }
+            }
+        }
+    }
+
+.dev-about-top-main{
+margin-top: 50px;
+
+}
+
+
+
+
+    .dev-about-skills-text {
+
+        border-bottom: 1px solid #494C5F;
+        padding-bottom: 10px;
+ 
+        h5 {
+            font-weight: 400;
+            line-height: 150%;
+            color: var(--product-headdig-color);
+        }
+    }
+
+     .dev-about-skills-text-one{
+        padding-left: 60px;
+    }
+
+
+    .dev-about-skills-btn {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+
+        a {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 150%;
+            color: var(--product-headdig-color);
+            border-radius: 6px;
+            background-color: #16213B;
+            padding: 0 16px;
+            transition: all linear 0.5s;
+
+            &:hover {
+                background-color: var(--developer-primary-color);
+                color: var(--product-bg-main-color);
+            }
+        }
+    }
+
+
+    .dev-about-skills-btn-img {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 00px;
+
+
+        .dev-about-skills-btn-images {
+            border-right: 1px solid rgba(255, 255, 255, 0.15);
+            padding-right: 26px;
+
+            img{
+                height: 60px;
+            }
+
+            &:nth-child(4) {
+                border-right: 1px solid transparent;
+                padding-right: 0px;
+            }
+
+            &:nth-child(6) {
+                border-right: 1px solid transparent;
+                padding-right: 0px;
+            }
+        }
+    }
+
+
+}
+
+
+
+// teacher-about 
+.teacher-about {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+
+    .product-about-taitel {
+        span {
+            color: var(--teacher-primary-color);
+        }
+    }
+
+    .product-about-item-main {
+
+        .product-about-item {
+            .product-about-item-progres {
+
+                .product-about-item-progres-overlay {
+
+                    span {
+                        border: 2px solid var(--teacher-primary-color);
+
+                    }
+                }
+
+
+                &::before {
+                    background-color: var(--teacher-primary-color);
+                }
+
+
+            }
+        }
+
+        .product-about-btn{
+            .main-btn{
+                background-color: var(--teacher-primary-color);
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+// law-about 
+.law-about {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+
+    .product-about-taitel {
+        span {
+            color: var(--law-primary-color);
+        }
+    }
+
+    .product-about-item-main {
+
+        .product-about-item {
+            .product-about-item-progres {
+
+                .product-about-item-progres-overlay {
+
+                    span {
+                        border: 2px solid var(--law-primary-color);
+
+                    }
+                }
+
+
+                &::before {
+                    background-color: var(--law-primary-color);
+                }
+
+
+            }
+        }
+
+        .product-about-btn{
+            .main-btn{
+                background-color: var(--law-primary-color);
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+// phtography-about 
+.phtography-about {
+    scroll-snap-stop: always;
+    scroll-snap-align: start;
+
+    .product-about-taitel {
+        span {
+            color: var(--phtography-primary-color);
+        }
+
+  
+    }
+
+
+    .product-about-taitel-p{
+        p{
+            color: rgba(255, 255, 255, 0.8);
+        }
+    }
+
+
+
+    .product-about-item-main {
+
+        .product-about-item {
+
+            .product-about-item-text{
+                span{
+                    color: #747681;
+                }
+            }
+            .product-about-item-progres {
+
+                &.two{
+                    &::before{
+                        width: 50%;
+                    }
+
+                    .product-about-item-progres-overlay{
+                        right: 235px;
+                    }
+                }
+
+                .product-about-item-progres-overlay {
+                    position: absolute;
+                    z-index: 1;
+                    right: 146px;
+                    top: -30px;
+
+                    span {
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        color:  var(--phtography-primary-color);
+                        padding: 8px 22px;
+                        background-color: transparent;
+                        border-radius: 10px;
+                        border: 2px solid transparent;
+
+                    }
+                }
+
+              
+
+
+
+                &::after{
+                    background-color: #D8D8DE;
+                    
+                }
+
+                &::before {
+                    background-color: var(--phtography-primary-color);
+                    width: 68%;
+                }
+
+
+            }
+
+        
+        }
+   
+
+       
+
+     
+    }
+
+    .phtography-about-btn {
+        margin-top: 50px !important;
+    }
+
+
+
+.phtography-images{
+    position: relative;
+
+    img{
+       width: 100%;
+       object-fit: cover;
+    }
+
+
+    .phtography-images-button{
+        position: absolute;
+        top: 104px;
+        left: 294px;
+        img{
+            width: 116.66px;
+            height: 116.315px;
+            object-fit: cover; 
+            animation: rotateCircles 8s linear infinite;
+        
+        }
+
+        .overlay{
+            position: absolute;
+            top: 53%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            h2{
+                font-size: 29.649px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 22.237px; 
+                color: #04091E;
+            }
+
+            p{
+                font-size: 8.339px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 180%; /* 15.01px */
+                letter-spacing: 0.834px;
+                text-transform: uppercase; 
+                color: #04091E;
+            }
+        }
+    }
+}
+
+
+
+
+
+}

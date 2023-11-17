@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    font-family : 'Work Sans';
+}
+
+img{
+    vertical-align: middle;
+}
+
+.container{
+    padding: 0;
+}
+
+
+
+body{
+    overflow-x: hidden;
+    font-family : 'Work Sans';  
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin-bottom: 0;
+    font-family : 'Work Sans';
+}
+
+span{
+    font-family : 'Work Sans';  
+}
+
+
+
+
+
+
+
+// font-size 
+
+h1{
+    font-size: 68px;
+    color:var(  --product-headdig-color);
+}
+
+
+h2{
+    font-size: 48px; 
+    color:var(  --product-headdig-color);
+}
+
+h3{
+    font-size: 42px; 
+    color:var(  --product-headdig-color);
+}
+
+h4{
+    font-size: 28px; 
+    color:var(  --product-headdig-color);
+}
+
+h5{
+    font-size: 24px; 
+    color:var(  --product-headdig-color);
+}
+h6{
+    font-size: 20px; 
+    color:var(  --product-headdig-color);
+}
+
+
+
+// marginn 
+
+.mt-25px{
+margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+// font-family-link 
+
+@font-face {
+    font-family : 'Work Sans';
+    font-style : italic;
+    font-weight : 400;
+    src : url(https://fonts.gstatic.com/s/worksans/v19/QGY9z_wNahGAdqQ43Rh_ebrnlwyYfEPxPoGU3msJow.ttf) format('truetype');
+    }
+
+    @font-face {
+    font-family : 'Work Sans';
+    font-weight : 300;
+    src : url(https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32KxfXNig.ttf) format('truetype');
+    }
+
+    @font-face {
+    font-family : 'Work Sans';
+    font-weight : 400;
+    src : url(https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K0nXNig.ttf) format('truetype');
+    }
+
+    @font-face {
+    font-family : 'Work Sans';
+    font-weight : 500;
+    src : url(https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K3vXNig.ttf) format('truetype');
+    }
+
+    @font-face {
+    font-family : 'Work Sans';
+    font-weight : 600;
+    src : url(https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K5fQNig.ttf) format('truetype');
+    }
+
+    @font-face {
+    font-family : 'Work Sans';
+    font-weight : 700;
+    src : url(https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K67QNig.ttf) format('truetype');
+    }
+
+    @font-face {
+    font-family : 'Work Sans';
+    font-weight : 800;
+    src : url(https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K8nQNig.ttf) format('truetype');
+    }
+
+    @font-face {
+    font-family : 'Work Sans';
+    font-weight : 900;
+    src : url(https://fonts.gstatic.com/s/worksans/v19/QGY_z_wNahGAdqQ43RhVcIgYT2Xz5u32K-DQNig.ttf) format('truetype');
+    } 
